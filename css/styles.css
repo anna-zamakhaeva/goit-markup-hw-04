@@ -242,7 +242,7 @@ img {
     align-items: center;
     justify-content: center;
     height: 112px;
-    padding: 24px 100px;
+    /* padding: 24px 100px; */
     background-color: #f4f4fd;
     border-radius: 4px;
     border: 1px solid #8e8f99;
@@ -427,7 +427,9 @@ img {
 .socials-text {
     font-weight: 500;
     margin-bottom: 16px;
+    align-self: flex-start;
     color: #fff;
+    max-width: 208px;
 }
 
 .footer-soc-list {
@@ -435,7 +437,6 @@ img {
     align-items: center;
     justify-content: center;
     gap: 16px;
-    max-width: ;
 }
 
 .footer-soc-item {
